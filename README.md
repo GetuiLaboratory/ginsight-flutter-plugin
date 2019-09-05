@@ -1,0 +1,1 @@
+# ginsight-flutter-plugin
