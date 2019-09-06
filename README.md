@@ -10,11 +10,11 @@ dependencies:
 ```
 
 
-###配置
+### 配置
+#### Android
 
-####Android
 
-在 `./example/android/app/build.gradle` 中添加下列代码
+在 `/android/app/build.gradle` 中添加下列代码
 
 ```
 android: {
@@ -40,7 +40,9 @@ import 'package:giflutter/giflutter.dart';
 
 
 ##### API
-####初始化和获取giuid
+
+#### 初始化和获取giuid
+
 ```
 result = await Giflutter.initGInsightSDK('nMSTp6JItAAH5IllE5h2Q3', 'flutter');
 if (result is Map) {
@@ -54,7 +56,9 @@ setState(() {
 });
 
 ```
-####设置渠道(Android)
+
+#### 设置渠道(Android)
+
 ```
 Giflutter.setInstallChannel('Flutter');
 ```
