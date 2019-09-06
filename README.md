@@ -39,7 +39,7 @@ import 'package:giflutter/giflutter.dart';
 ```
 
 
-##### API
+### API
 
 #### 初始化和获取giuid
 
